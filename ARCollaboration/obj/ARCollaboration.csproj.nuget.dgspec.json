@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tboyina\\source\\repos\\ARCollaboration\\ARCollaboration.csproj": {}
+    "C:\\Users\\tboyina\\Source\\Repos\\ARCollaborator1\\ARCollaboration\\ARCollaboration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tboyina\\source\\repos\\ARCollaboration\\ARCollaboration.csproj": {
+    "C:\\Users\\tboyina\\Source\\Repos\\ARCollaborator1\\ARCollaboration\\ARCollaboration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tboyina\\source\\repos\\ARCollaboration\\ARCollaboration.csproj",
+        "projectUniqueName": "C:\\Users\\tboyina\\Source\\Repos\\ARCollaborator1\\ARCollaboration\\ARCollaboration.csproj",
         "projectName": "ARCollaboration",
-        "projectPath": "C:\\Users\\tboyina\\source\\repos\\ARCollaboration\\ARCollaboration.csproj",
+        "projectPath": "C:\\Users\\tboyina\\Source\\Repos\\ARCollaborator1\\ARCollaboration\\ARCollaboration.csproj",
         "packagesPath": "C:\\Users\\tboyina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tboyina\\source\\repos\\ARCollaboration\\obj\\",
+        "outputPath": "C:\\Users\\tboyina\\Source\\Repos\\ARCollaborator1\\ARCollaboration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tboyina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
